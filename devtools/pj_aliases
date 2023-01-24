@@ -1,0 +1,5 @@
+#/bin/bash
+export pj_clojure_home=$HOME/development/personal/clojure-projects
+export pj_home=pj_clojure_home/prueba-lein-02
+alias clj_run="lein run"
+alias clj_package="lein uberjar"
